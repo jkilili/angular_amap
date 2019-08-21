@@ -16,11 +16,11 @@ export class MapComponent {
     }
 
     ngOnInit() {
-        this.gethistorical();
+        //this.gethistorical();
         //  this.getCircle();
         // this.getpolygon();
         // this.getLine();
-        //  this.getlocaltion();
+          this.getlocaltion();
     }
 
     //轨迹回放
@@ -84,11 +84,11 @@ export class MapComponent {
         //开始移动
         marker.moveAlong(lineArr, 200);
         //暂停移动
-        marker.pauseMove();
-        //继续播放
-        marker.resumeMove();
-        //停止播放
-        marker.stopMove();
+        // marker.pauseMove();
+        // //继续播放
+        // marker.resumeMove();
+        // //停止播放
+        // marker.stopMove();
     }
 
     //圆
